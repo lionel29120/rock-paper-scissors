@@ -57,7 +57,8 @@ function game() {
     } else if (roundResult[0] == 2) {
       computerScore += 1;
     }
-    console.log(`${roundResult[1]}, your score: ${playerScore}, Computer's score: ${computerScore}`);
+    console.log(`${roundResult[1]}, your score: ${playerScore}, ` +
+      `Computer's score: ${computerScore}`);
   }
   if (playerScore > computerScore) {
     console.log("You win over the computer!!!")
